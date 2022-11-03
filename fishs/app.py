@@ -1,10 +1,10 @@
 import streamlit as st
 from fastai.vision.all import *
-import pathlib
 import plotly.express as px
 import platform
+import pathlib
 plt = platform.system()
-if plt == 'Linux':pathlib.WindowsPath = pathlib.PosixPath
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 st.title("Dengiz hayvonlarini klassifikatsiya qiluvchi model")
 
